@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - obstaculo
+  - enemigo
   layers:
   - Default
   - TransparentFX

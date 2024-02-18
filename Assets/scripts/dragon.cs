@@ -41,7 +41,8 @@ public class dragon : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("obstaculo"))
+        if(collision.gameObject.CompareTag("obstaculo") || collision.gameObject.CompareTag("enemigo"))
+
         {
             GameManager.Instance.ShowPantallaMuerte();
             dragonAnimator.SetTrigger("die");
