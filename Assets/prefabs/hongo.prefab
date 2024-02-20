@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 316567351973611803}
   - component: {fileID: 8319255745759825710}
   - component: {fileID: -567483956990325485}
-  - component: {fileID: -374430441506508214}
+  - component: {fileID: 4803582275986392662}
   m_Layer: 0
   m_Name: hongo
   m_TagString: obstaculo
@@ -146,10 +146,10 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00000007040818, y: -0.002643474}
-  m_Size: {x: 0.45534408, y: 0.6613797}
+  m_Offset: {x: -0.00000007040818, y: 0.29140592}
+  m_Size: {x: 0.45534408, y: 0.6399554}
   m_Direction: 0
---- !u!114 &-374430441506508214
+--- !u!114 &4803582275986392662
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,3 +161,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87da808442af44b44ab7e5526aa26a21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 20
+  aumento: 10

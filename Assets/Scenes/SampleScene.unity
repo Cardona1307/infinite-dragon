@@ -2013,8 +2013,8 @@ MonoBehaviour:
   - {fileID: 8817792433429842696, guid: f83f5a70d5d7f25418821efb512c7732, type: 3}
   - {fileID: 2983537386515068819, guid: ce18c8b5134a46b48a487b0f47862423, type: 3}
   - {fileID: 8284001147951091311, guid: 10dff9de48d55cb42a0866820e0ec450, type: 3}
-  minTime: 0.6
-  maxTime: 1.4
+  minTime: 1
+  maxTime: 2
 --- !u!4 &1035671376
 Transform:
   m_ObjectHideFlags: 0
@@ -3795,6 +3795,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87da808442af44b44ab7e5526aa26a21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 20
+  aumento: 5
 --- !u!50 &1749854514
 Rigidbody2D:
   serializedVersion: 4

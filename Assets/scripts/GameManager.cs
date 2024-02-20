@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
 
     private void UpdateSpeed()
     {
-        float speedDivider = 10f;
+        float speedDivider = 20f;
         scrollSpeed = initialScrollSpeed + timer / speedDivider;
     }
 

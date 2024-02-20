@@ -1,14 +1,22 @@
 using System.Collections;
-using System.Collections.Generic;
-using System.Threading;
 using UnityEngine;
 
 public class scroll : MonoBehaviour
 {
-    private float scrollSpeed = 20f;
+    public float speed = 20f; 
+    public float aumento = 10f; 
+    private float timer = 0; 
 
     void Update()
     {
-        transform.Translate(Vector2.left * scrollSpeed * Time.deltaTime);
+        
+        transform.Translate(Vector2.left * speed * Time.deltaTime);
+
+        timer += Time.deltaTime;
+        if (timer >= 10)
+        {
+            speed += speed + aumento;
+            timer = 0;
+        }
     }
 }
