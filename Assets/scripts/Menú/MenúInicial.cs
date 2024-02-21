@@ -29,6 +29,6 @@ public class MenúInicial : MonoBehaviour
 
     public void Volver()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(0);
     }
 }
